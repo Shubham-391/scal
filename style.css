@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .smooth-hover {
+        transition: all linear 300ms;
+    }
+
+    .box-gradient {
+        background: linear-gradient(13deg, #0076BE 3.65%, #48BF91 89.63%);
+    }
+
+    .text-stroke-number {
+        -webkit-text-stroke: 1.5px white;
+    }
+
+    .text-fill-transparent {
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+[type='text']:focus,
+[type='email']:focus,
+[type='tel']:focus, textarea:focus {
+    --tw-ring-shadow: none;
+}
+
+#accordion-collapse-heading-1 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#accordion-collapse-heading-2 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#accordion-collapse-heading-3 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#accordion-collapse-heading-1+#accordion-collapse-body-1[class=''] .body {
+    border-top: none;
+}
+
+#accordion-collapse-heading-2+#accordion-collapse-body-2[class=''] .body {
+    border-top: none;
+}
+
+#accordion-collapse-heading-3+#accordion-collapse-body-3[class=''] .body {
+    border-top: none;
+}
+
+.slider1 .slick-slide {
+    margin: 0 5px;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.prev:hover svg path {
+    fill: black;
+}
+
+.next:hover svg path {
+    fill: black;
+}
+
+.d-none {
+    display: none !important;
+}
+
+/* section4 */
+
+.prev,
+.next {
+    display: none !important;
+}
+
+/* section5 */
+
+#accordion-flush-heading-1 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#accordion-flush-heading-2 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#accordion-flush-heading-3 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#accordion-flush-heading-4 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#accordion-flush-heading-5 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#accordion-flush-heading-6 button[aria-expanded="true"] {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@media (min-width: 640px) {
+
+    /* section4 */
+    .prev,
+    .next {
+        display: flex !important;
+    }
+
+}
